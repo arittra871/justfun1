@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#preloder{
+    width: 100%;
+    height: 100vh;
+    background:fixed #fff url(img/preloder2.gif) no-repeat center;
+    z-index: 100;
+}
+
+.vh-60{
+   height: 50vh;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+
+.section-padding{
+    padding: 70px 0px;
+}
+
+.text1{
+    text-align: justify;
+}
+
+.img-center{
+    padding: auto 0px;
+}
+
+.line1{
+    line-height: 1.7em;
+}
+
+.shadow1{
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px rgb(55 94 148 / 30%), inset -3px -2px 5px rgb(255 255 255 / 80%);
+}
+
+.service .icon{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 8px rgb(55 94 148 / 30%), inset -3px -2px 5px rgb(255 255 255 / 80%);
+}
+
+.border-hover{
+    transition: all 0.8s ease-out;
+    border: 2px solid transparent;
+}
+
+.border-hover:hover{
+    border: 2px solid #d6d6d6;
+}
